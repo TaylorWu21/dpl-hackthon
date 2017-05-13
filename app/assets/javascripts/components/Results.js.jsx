@@ -19,7 +19,7 @@ class Results extends React.Component{
             <p>Front End: {this.state.totals[team].front_end}</p>
             <p>Back End: {this.state.totals[team].back_end}</p>
             <p>Creativity: {this.state.totals[team].creativity}</p>
-            <p>Overall: {this.state.totals[team].overall}</p>
+            <p>Logic/Functionality: {this.state.totals[team].overall}</p>
             <b>Final Score: {this.state.totals[team].result}%</b>
           </div>
       </div>

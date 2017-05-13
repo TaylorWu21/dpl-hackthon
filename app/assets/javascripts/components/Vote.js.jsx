@@ -75,7 +75,7 @@ class Vote extends React.Component{
             <p>&nbsp;&nbsp;&nbsp; <b>Front End</b> - Use of CSS/styling, front-end-frameworks, [React/AJAX for Hackathon 2]</p>
             <p>&nbsp;&nbsp;&nbsp; <b>Back End</b> - Database structure, routing, models, controllers, back-end architecture</p>
             <p>&nbsp;&nbsp;&nbsp; <b>Creativity/Concept</b> - Implementation of gems, thoughfulness of idea, originality</p>
-            <p>&nbsp;&nbsp;&nbsp; <b>Overall</b> - Your overall valuation of the application: Is it usable? Is it a good idea?</p>
+            <p>&nbsp;&nbsp;&nbsp; <b>Logic/Functinality</b> - How well the app functions and the complexity of the logic</p>
             <div className='center'>
               <a className='btn waves-effect waves-light' onClick={this.goAway.bind(this)}>I already knew that, make this go away.</a>
             </div>
@@ -181,7 +181,7 @@ class Vote extends React.Component{
               </div>
             </div>
             <div className='ballot-box'>
-              <b className='col s3'>Overall</b>
+              <b className='col s3'>Logic/Functionality</b>
               <div className='radios col s9'>
                 { ov_radios }
               </div>
